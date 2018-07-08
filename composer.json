@@ -18,7 +18,8 @@
     },
     "require": {
         "php": "7.1.*",
-        "lou117/core": "dev-master"
+        "lou117/core": "dev-master",
+        "lou117/core-middlewares": "dev-master"
     },
     "autoload": {
         "psr-4": {
