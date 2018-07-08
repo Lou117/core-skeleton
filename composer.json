@@ -1,0 +1,27 @@
+{
+    "name": "lou117/core-skeleton",
+    "description": "Ready-to-use skeleton for Core microframework. See https://github.com/Lou117/core for more details about Core.",
+    "type": "project",
+    "homepage": "https://github.com/lou117/core-skeleton",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sylvain Glaçon",
+            "email": "sylvain.glacon@gmail.com",
+            "homepage": "https://github.com/lou117",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "wiki": "https://github.com/Lou117/core/wiki",
+        "source": "https://github.com/Lou117/core-skeleton"
+    },
+    "require": {
+        "lou117/core": "2.0.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Skeleton\\": "src/"
+        }
+    }
+}
