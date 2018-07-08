@@ -8,7 +8,14 @@
 
 use Lou117\Core\Core;
 
+// Requiring Composer autoloader before changing working directory to avoid IDE warnings
+require("../vendor/autoload.php");
+
+// Changing working directory
 chdir(__DIR__.'/../');
 
-$core = new Core("/config/settings.php", "/config/routes.php");
+// Initializing Core
+$core = new Core("config/settings.php", "config/routes.php");
+
+// Running Core
 $core->run();

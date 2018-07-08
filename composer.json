@@ -17,6 +17,7 @@
         "source": "https://github.com/Lou117/core-skeleton"
     },
     "require": {
+        "php": "7.1.*",
         "lou117/core": "2.0.*"
     },
     "autoload": {
