@@ -1,0 +1,10 @@
+server {
+    #listen         80 default_server;
+    #listen         [::]:80 default_server;
+    #server_name    example.com www.example.com;
+    #root           [path to project]/web;
+    index          index.php;
+    location / {
+        try_files $uri $uri/ /index.php?$args;
+    }
+}

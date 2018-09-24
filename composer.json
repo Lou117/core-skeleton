@@ -13,12 +13,11 @@
         }
     ],
     "support": {
-        "wiki": "https://github.com/Lou117/core/wiki",
         "source": "https://github.com/Lou117/core-skeleton"
     },
     "require": {
         "php": "7.1.*",
-        "lou117/core": "v3.0.0",
+        "lou117/core": "v3.0.2",
         "lou117/core-middlewares": "dev-master"
     },
     "autoload": {
